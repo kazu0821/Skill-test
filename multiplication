@@ -1,0 +1,10 @@
+
+## It took 5 minutes
+def method(a,b):
+  if a >= 0 and a <= 50:
+    if b >= 0 and b <=50:
+      answer = a*b
+      print(answer)  
+  else:
+    print("Either or both number is greater 50 or less than 0")
+method(34,6)
