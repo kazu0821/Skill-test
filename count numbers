@@ -1,0 +1,19 @@
+##It takes 12 minutes
+ 
+def convert(a):
+
+  words = a.split()
+
+  while words  :
+      count = words[0]
+      print(count,":", words.count(count))
+
+      new = []
+      for word in words:
+          if word != count:
+            new.append(word)
+
+      words = new
+
+
+convert("one five two ten five one two five one four three")
